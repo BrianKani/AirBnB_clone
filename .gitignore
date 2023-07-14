@@ -3,3 +3,8 @@
 
 # ignore byte compiled files:
 __pycache__/
+
+# ignore test files provided by ALX:
+test_base_model_dict.py
+test_base_model.py
+test_save_reload_base_model.py
