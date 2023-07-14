@@ -5,7 +5,7 @@ unittest for user.py
 
 import unittest
 from models.user import User
-import dateetime
+import datetime
 
 
 class UserCase(unittest.TestCase):
