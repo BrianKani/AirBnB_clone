@@ -11,11 +11,11 @@ Tying it all together we have created a command line interface for testing and d
 To use the command interpreter follow the instructions below.
 
  - Starting the interpreter is as simple as running the file from the directory in which it is stored (or point to the directory in which it is stored).
-  - `$ ./console.py`
+   	 - `$ ./console.py`
  - There are multiple commands one can use with the interpreter. You can view all of the available commands by using `$ help`. If you need more information about a particular command, you can use `$ help {command}`.
-  - `create` - Creates a new instance of BaseModel, saves it to the JSON file and prints the id. Example: `$ create BaseModel`
-  - `show` - Prints the string representation of an instance based on the class name and id. Example: `$ show BaseModel 1234-1234-1234`
-  - `destroy` - Deletes an instance based on the class name and id (save the change into the JSON file). Example: `$ destroy BaseModel 1234-1234-1234`
-  - `all` - Prints all string representation of all instances based or not on the class name. Ex: $ all BaseModel or `$ all`
-  - `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Example: `$ update BaseModel 1234-1234-1234 email 'aibnb@mail.com'`
-  - 'quit` - Exits the console application when prompted by the user. Example: `$ quit`
+   	 - `create` - Creates a new instance of BaseModel, saves it to the JSON file and prints the id. Example: `$ create BaseModel`
+  	 - `show` - Prints the string representation of an instance based on the class name and id. Example: `$ show BaseModel 1234-1234-1234`
+  	 - `destroy` - Deletes an instance based on the class name and id (save the change into the JSON file). Example: `$ destroy BaseModel 1234-1234-1234`
+  	 - `all` - Prints all string representation of all instances based or not on the class name. Ex: $ all BaseModel or `$ all`
+  	 - `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Example: `$ update BaseModel 1234-1234-1234 email 'aibnb@mail.com'`
+  	 - 'quit` - Exits the console application when prompted by the user. Example: `$ quit`
