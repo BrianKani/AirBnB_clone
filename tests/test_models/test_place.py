@@ -23,9 +23,10 @@ class TestPlace(unittest.TestCase):
 
     def testHasAttributes(self):
         """verify if attributes exist"""
-    
+
     def test_types(self):
         """tests if the type of the attribute is the correct one"""
+
 
 if __name__ == '__main__':
     unittest.main()
